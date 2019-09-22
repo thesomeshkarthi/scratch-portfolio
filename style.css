@@ -9,3 +9,14 @@ font-size: 35px;
 color: #E9B628;
  }
 
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

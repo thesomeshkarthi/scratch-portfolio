@@ -7,6 +7,7 @@ background-color: #FFFFFF;
 font-family: Rubik;
 font-size: 35px;
 color: #E9B628;
+line-height: 0px;
  }
 
 .column {
@@ -19,4 +20,25 @@ color: #E9B628;
   content: "";
   clear: both;
   display: table;
+}
+
+.typing h2 {
+  overflow: hidden;
+  font-family: Rubik;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 1px }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  25% { border-color: orange; }
 }

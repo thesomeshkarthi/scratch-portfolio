@@ -10,6 +10,13 @@ color: #E9B628;
 line-height: 0px;
  }
 
+.subtitles {
+font-family: Rubik;
+font-size: 13px;
+color: "black";
+line-height: 0px;
+}
+
 .column {
   float: left;
   width: 30%;
